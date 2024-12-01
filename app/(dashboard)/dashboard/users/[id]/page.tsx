@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Page = () => {
-  
+const Page = ({params} : { params : {id :string}}) => {
+    const {id} = params;
   return (
-    <div>about</div>
+    <div>user details  : {id}</div>
   )
 }
 
-export default Page
+export default Page 
