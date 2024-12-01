@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Hello from "../component/hello";
 
 export default function Home() {
